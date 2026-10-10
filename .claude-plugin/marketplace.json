@@ -1,0 +1,16 @@
+{
+  "name": "big-bear-dev",
+  "owner": {
+    "name": "jonathasmoraes01",
+    "url": "https://github.com/jonathasmoraes01"
+  },
+  "plugins": [
+    {
+      "name": "big-bear",
+      "source": "./",
+      "description": "Smart model routing, task pane, token intelligence, usage band, code and git guardians, auto QA.",
+      "homepage": "https://github.com/jonathasmoraes01/big-bear-dev-orchestrator"
+    }
+  ],
+  "description": "BIG BEAR DEV ORCHESTRATOR: a Claude Code mod that routes models, tracks tasks, tokens and usage limits, and guards your repository."
+}

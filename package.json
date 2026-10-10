@@ -1,0 +1,36 @@
+{
+  "name": "big-bear-dev-orchestrator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BIG BEAR DEV ORCHESTRATOR: a Claude Code mod that routes models, tracks tasks, tokens and usage limits, and guards your repository.",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc -p .",
+    "validate": "claude plugin validate .",
+    "test": "claude plugin test ."
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "^5.6.0"
+  },
+  "license": "MIT",
+  "author": "jonathasmoraes01",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathasmoraes01/big-bear-dev-orchestrator.git"
+  },
+  "homepage": "https://github.com/jonathasmoraes01/big-bear-dev-orchestrator#readme",
+  "bugs": {
+    "url": "https://github.com/jonathasmoraes01/big-bear-dev-orchestrator/issues"
+  },
+  "keywords": [
+    "claude-code",
+    "claude",
+    "mod",
+    "plugin",
+    "orchestrator",
+    "model-routing",
+    "token-usage",
+    "developer-tools"
+  ]
+}

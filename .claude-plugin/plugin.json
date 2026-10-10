@@ -1,0 +1,21 @@
+{
+  "name": "big-bear",
+  "version": "1.0.0",
+  "description": "BIG BEAR DEV ORCHESTRATOR — Code Smarter. Build Faster. Spend Less. Smart model routing, task command pane, token intelligence, usage band, code/git guardians, auto QA and dev analytics.",
+  "author": {
+    "name": "jonathasmoraes01",
+    "url": "https://github.com/jonathasmoraes01"
+  },
+  "types": "./types/index.d.ts",
+  "homepage": "https://github.com/jonathasmoraes01/big-bear-dev-orchestrator#readme",
+  "repository": "https://github.com/jonathasmoraes01/big-bear-dev-orchestrator",
+  "license": "MIT",
+  "keywords": [
+    "orchestrator",
+    "model-routing",
+    "tokens",
+    "usage",
+    "guardian",
+    "qa"
+  ]
+}
