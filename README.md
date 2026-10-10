@@ -108,12 +108,14 @@ Also: a **notification** when each task finishes, **readable task titles** (a ki
 **2. Add the marketplace and install** (user scope, so it loads in every project):
 
 ```bash
-claude plugin marketplace add jonathasmoraes01/big-bear-dev-orchestrator
+claude plugin marketplace add https://github.com/jonathasmoraes01/big-bear-dev-orchestrator.git
 ```
 
 ```bash
 claude plugin install big-bear@big-bear-dev --scope user
 ```
+
+> Use the full HTTPS URL: the `owner/repo` shorthand tries SSH first and fails on machines that have never connected to GitHub over SSH.
 
 **3. Start a new session.** The pane opens by itself and the usage band appears above the prompt. Check everything with:
 

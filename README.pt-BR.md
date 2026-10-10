@@ -107,12 +107,14 @@ Também: **notificação** quando cada tarefa termina, **títulos legíveis** (t
 **2. Adicione o marketplace e instale** (escopo user, para carregar em todo projeto):
 
 ```bash
-claude plugin marketplace add jonathasmoraes01/big-bear-dev-orchestrator
+claude plugin marketplace add https://github.com/jonathasmoraes01/big-bear-dev-orchestrator.git
 ```
 
 ```bash
 claude plugin install big-bear@big-bear-dev --scope user
 ```
+
+> Use a URL HTTPS completa: o atalho `dono/repo` tenta SSH primeiro e falha em máquinas que nunca conectaram ao GitHub por SSH.
 
 **3. Abra uma sessão nova.** O painel abre sozinho e a faixa de uso aparece acima do prompt. Confira tudo com:
 
